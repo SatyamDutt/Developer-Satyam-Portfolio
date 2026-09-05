@@ -3007,6 +3007,14 @@ h1 {
         order:
             -1;
 
+        /*
+         * Cancel the desktop -140px pull so the
+         * profile block doesn't ride up into the
+         * sticky header on mobile.
+         */
+        margin-top:
+            0px;
+
     }
 
 
@@ -3153,7 +3161,7 @@ h1 {
     .hero {
 
         padding:
-            25px 20px 80px;
+            8px 20px 80px;
 
     }
 
@@ -3161,10 +3169,10 @@ h1 {
     .hero-profile {
 
         height:
-            430px;
+            370px;
 
         min-height:
-            430px;
+            370px;
 
     }
 
@@ -3241,7 +3249,7 @@ h1 {
             -3px;
 
         top:
-            55px;
+            20px;
 
         transform:
             scale(.82);
